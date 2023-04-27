@@ -42,3 +42,23 @@ iframe#tela{
     width: 269px;
     height: 471px;
 }
+
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.334);
+    box-sizing: border-box; /*Fazendo isso, quando for fazer a configuração para que o icone brilhe em branco, não irá brilhar todos juntamente, pois fára parte da caixa*/
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid white;
+    transform: translate(-3, -3); /*fará com que a caixa se movimente para esqueda cima,*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.218);
+    transition: transform 1s; /*faz com que retarde o movimento quando passar o mauser em cima, se quiser fazer isso com a bordar, é necessario apenas colocar a virgula e escrever o atributo BORDER*/
+}
